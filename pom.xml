@@ -15,6 +15,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexusdeploymentrepo</id>
+      <url>http://52.249.197.109:8081/repository/divak-snapshot/</url>
+    </snapshotRepository>
+  </distributionManagement
   <build>
     <plugins>
       <plugin>
