@@ -18,9 +18,10 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexusdeploymentrepo</id>
+      <name>snapshot-for-test</name>
       <url>http://52.249.197.109:8081/repository/divak-snapshot/</url>
     </snapshotRepository>
-  </distributionManagement
+  </distributionManagement>
   <build>
     <plugins>
       <plugin>
