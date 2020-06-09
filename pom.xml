@@ -5,8 +5,7 @@
   <artifactId>nexus</artifactId>
   <packaging>jar</packaging>
   <version>2.0.0</version>
-  <name>my-app</name>
-  <url>http://maven.apache.org</url>
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -17,11 +16,11 @@
   </dependencies>
   
 <distributionManagement>
-    <Repository>
+    <repository>
       <id>nexus</id>
       <name>divak-release</name>
       <url>http://52.249.197.109:8081/repository/divak-release/</url>
-    </Repository>
+    </repository>
 </distributionManagement>
   
   <build>
