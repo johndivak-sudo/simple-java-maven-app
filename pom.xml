@@ -15,13 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
-  <snapshotRepository>
+  
+<distributionManagement>
+    <Repository>
       <id>nexus</id>
-      <name>snapshot-for-test</name>
+      <name>divak-release</name>
       <url>http://52.249.197.109:8081/repository/divak-release/</url>
-  </snapshotRepository>
-  </distributionManagement>
+    </Repository>
+</distributionManagement>
+  
   <build>
     <plugins>
       <plugin>
