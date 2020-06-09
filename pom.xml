@@ -19,7 +19,7 @@
     <snapshotRepository>
       <id>nexus</id>
       <name>snapshot-for-test</name>
-      <url>http://52.249.197.109:8081/repository/divak-snapshot/</url>
+      <url>http://52.249.197.109:8081/repository/divak-release/</url>
     </snapshotRepository>
   </distributionManagement>
   <build>
